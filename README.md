@@ -5,10 +5,13 @@ In the current state the appliction after being build would result in a blue bor
 
 ### To build the application use these commands:
 - generate build
+
 `cmake -B <where to build> -S <location of main CMakeList.txt>`
 
 - build into binary
+
 `cmake --build <location of build>`
 
 - add submodule
+
 `git submodule add <github repo link>`
